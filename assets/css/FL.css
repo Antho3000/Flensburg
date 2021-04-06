@@ -1,0 +1,75 @@
+body {
+  front-family:lato,
+  sans-serif;
+}
+h1 {
+ width: 100%;
+ font-weight: lighter;
+ text-align: center;
+ font-size: 40px;
+ color: blue;
+}
+h2 {
+ display:inline-block;
+ text-align: center;
+ background-color: blue;
+ padding: 3px;
+ margin: 5px;
+ font-size: 28px;
+ color:white;
+ align-items: center;
+}
+h3 { 
+ display: inline-block;
+ font-weight: bold;
+ background-color: white;
+ text-align: left;
+ padding: 10px;
+ color:blue;
+}
+.main {
+  min-width:964px;
+  min-height:422px;
+  display:flex;
+  background-size:cover;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-image: url("https://Hausaufgaben/Info/html und css/Bilder/hafen.JPG");
+}
+.container {
+  min-width: 775px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.more {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:45px;
+}
+.more div {
+  background-size:cover;
+  min-width:450px;
+  min-height:345px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:30px;
+  margin-left:30px;
+}
+#sights {
+  background-image:url("https://Hausaufgaben/Info/html und css/Bilder/event.JPG")
+}
+#events {
+  background-image:url("https://Hausaufgaben/Info/html und css/Bilder/loewe.JPG")
+}
+#footer {
+  text-align:center;
+  color:blue;
+  width:100%;
+  font-weight:lighter;
+  font-size:20px;
+  padding:50px;
+}
